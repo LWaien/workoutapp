@@ -1,0 +1,17 @@
+<h1>Workouts</h1>
+<h2>{{ .Date }} {{ .Title }}:</h1>
+<ul>
+    {{ range .Exercises }}
+        <li>{{ .ExerciseName }}:
+            <ol>
+                {{ range .Sets }}
+                <li>
+                    {{ .Reps }} {{ .Weight }}
+                </li> 
+                {{ end }}
+                
+            <ol>
+        </li>{{end}}
+
+
+</ul>

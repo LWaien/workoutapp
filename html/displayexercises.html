@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+  </head>
+  <body>
+    <form action="/displayexercises" method="post">
+      <label for="exercise">Exercise Name:</label><br />
+      <input type="text" id="exercise" name="exercise" /><br />
+      <input type="submit" value="Add exercise" />
+    </form>
+    <form action="/userdash" method="get">
+      <input type="submit" value="Go back to workouts" />
+    </form>
+
+    <div id="container">
+      {{range .}}
+      <div class="card">
+        <div class="card__details">
+          <div class="name">{{.ExerciseName}}</div>
+          <a href="/newexerciseform?ExerciseID={{.ExerciseID}}">Edit</a>
+          <a href="/deleteexercise/?ExerciseID={{.ExerciseID}}">Delete</a>
+        </div>
+      </div>
+      {{end}}
+
+  </body>
+</html>

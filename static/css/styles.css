@@ -1,0 +1,50 @@
+form {
+    margin: auto;
+    padding: 8px;
+}
+
+#container {
+    max-width: 300px;
+  
+    /* Center the container in middle on horizontal axis */
+    margin: auto;
+  
+    /* Add empty space above the container (20% of the view height) */
+  }
+  a.tester {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    z-index: 1;
+    
+}
+
+.card {
+    /* Change background color */
+    background-color: white;
+  
+    /* Add border */
+    border: 3px solid #bacdd8;
+    /* Add space between the border and the content */
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+  }

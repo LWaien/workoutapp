@@ -246,7 +246,7 @@ func userdash(w http.ResponseWriter, r *http.Request) {
 
 func login(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("/", r.Method)
-	login, _ := template.ParseFiles("html/signin.html")
+	login, _ := template.ParseFiles("html/index.html")
 	login.Execute(w, nil)
 }
 

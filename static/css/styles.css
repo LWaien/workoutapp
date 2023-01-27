@@ -48,3 +48,8 @@ p {
     color: #7f8c9b;
     line-height: 150%;
   }
+
+#workoutcount {
+    text-align: center;
+    font-size: 2px;
+}

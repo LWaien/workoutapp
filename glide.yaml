@@ -1,4 +1,0 @@
-package: workoutapp
-import:
-- package: github.com/go-sql-driver/mysql
-  version: v1.7.0

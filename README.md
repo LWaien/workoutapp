@@ -1,6 +1,6 @@
 # Workout Tracker
 
-The Workout Tracker Web App is a digital workout diary that allows users to store dated workout information in one simple dashboard. It is designed to help users keep track of their exercises, monitor their progress, and maintain a well-organized record of their fitness journey.
+The Workout Tracker Web App is a digital workout diary that allows users to store dated workout information in one simple dashboard. It is designed to help users keep track of their exercises, monitor their progress, and maintain a well-organized record of their fitness.
 
 ## Features
 
